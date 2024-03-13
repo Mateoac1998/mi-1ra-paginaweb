@@ -48,6 +48,16 @@
 <body>
     <header>
         <img class="header-img" src="IMG-20220915-WA004471.jpg" alt="Imagen de encabezado">
+        .header-img {
+            position: absolute;
+            top: 50%;
+            right: 20px;
+            transform: translateY(-50%);
+            width: 100px; /* Cambia el tamaño según sea necesario */
+            height: 100px; /* Ajusta la altura para que sea cuadrada */
+            object-fit: cover; /* Esto asegura que la imagen se ajuste dentro del cuadro manteniendo su relación de aspecto */
+            border-radius: 50%; /* Esto hace que la imagen tenga bordes redondeados para que quede completamente cuadrada */
+        }
         <h1>¡Bienvenido a mi Portafolio Profesional!</h1>
         <p>Administrador de Empresas | Especialista en Gerencia de Proyectos | Estratega de Marketing Digital</p>
     </header>
